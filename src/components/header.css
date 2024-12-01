@@ -1,0 +1,126 @@
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1280px;
+    height: 65px;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.profile{
+    width: 82.8px;
+    height: 22px;
+    left: 1150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.profile p{
+    width: 74px;
+    height: 22px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#475569;
+}
+
+.profile img{
+    width: 10.8px;
+    height: 6.8px;
+    color:#94A3B8;
+}
+
+.headerContainer img[src="./images/Rectangle.png"] {
+    position: absolute;
+    left: 88%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px; 
+    height: 24px; 
+    z-index: 1;
+    color:#E2E8F0;
+}
+
+
+.navigationIcons{
+    width: 120px;
+    height: 32px;
+    top: 16px;
+    left: 980px; 
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+}
+ .navigationIcons li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.navigationIcons .search{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px ;
+    color: #F1F5F9;
+    background-color: #F1F5F9;
+}
+
+.navigationIcons .search img{
+    width: 16px;
+    height: 16px;
+ 
+    
+}
+
+.navigationIcons .notifications{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px ;
+    color: #F1F5F9;
+    background-color: #F1F5F9;
+}
+
+.navigationIcons .notifications img{
+    width: 16px;
+    height: 16px;
+    color: #64748B;
+    
+}
+
+.navigationIcons .notifications span img{
+    top: -1px;
+    position: absolute;
+    
+}
+
+.navigationIcons .info{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    color: #F1F5F9;
+    background-color: #F1F5F9;
+}
+
+.navigationIcons .info img{
+    width: 16px;
+    height: 16px;
+    color: #64748B;
+}
+
+.headerDivider{
+    width: 1280px; 
+    height: 1px;
+    background-color: #E2E8F0;
+    position: relative; 
+    top: 64px;
+}

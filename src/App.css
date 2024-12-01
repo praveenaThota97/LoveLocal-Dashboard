@@ -1,0 +1,137 @@
+body{
+  margin:0;
+}
+
+.container{
+  display:flex;
+  width: 1520px;
+  height: 1081px;
+  top: -1141px;
+  left: -757px;
+  background-color: #F1F5F9;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  width: 240px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #1E293B;
+  position: relative;
+}
+.sidebar .logo{
+  width: 36px;
+  height: 36px;
+  top:17px;
+  left:25px;
+  position: absolute;
+}
+
+.sidebar .menu{
+  width:208px;
+  height:114px;
+  top:89px;
+  left:16px;
+  position: absolute;
+}
+
+.sidebar .menu p{
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #64748B;
+  width: 40px;
+  height: 20px;
+  left: 8px;
+  position: relative;
+}
+
+.sidebar .dashboardBlock{
+  width: 208px;
+  height: 40px; 
+  border-radius: 2px 0px 0px 0px;
+  display: flex; 
+  position: relative;
+  align-items: center;
+  background-color: #0F172A;
+}
+
+.sidebar .dashboardBlock .dashboard{
+  width: 74px;
+  height: 22px;
+  left: 48px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#E2E8F0;
+  position: absolute;
+}
+
+.sidebar .dashboardBlock img{
+  width: 24px;
+  height: 24px;
+  left: 12px;
+  position: absolute;
+}
+
+.sidebar .customerBlock{
+  width: 208px;
+  height: 40px;
+  border-radius: 2px 0px 0px 0px;
+  position: relative;
+  display: flex; 
+  align-items: center;
+}
+
+.sidebar .customerBlock img{
+  width: 24px;
+  height: 24px;
+  left: 12px;
+  position: absolute;
+}
+
+.sidebar .customers{
+  width: 74px;
+  height: 22px;
+  left: 48px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:  #E2E8F0;
+  position: absolute;
+}
+
+.content{
+  flex:1;
+  position: relative;
+} 
+
+.card_chart{
+  width: 1216px;
+  height: 684px;
+  top: 314px;
+  left: 45px;
+  position: absolute;
+}
+
+.cardView{
+  width: 389px;
+  height: 289px;
+  top: 314px;
+  left: 1098px;
+}

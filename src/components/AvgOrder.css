@@ -1,0 +1,109 @@
+
+.overLoadContainer{
+    width: 570px;
+    height: 371px;
+    top: 360px;
+    left:50.5%;
+    border:1px solid #E2E8F0;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    padding: 16px;
+}
+
+.OverloadHeader{
+    width: 596px;
+    height: 41px;
+    top: 643px;
+    left: 273px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.2222222238779068px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1E293B;
+
+}
+
+.percentage {
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-left: 30px;
+  }
+  
+  .percentage.positive {
+    background-color: #4caf50; /* Green for positive percentage */
+  }
+  
+  .percentage.negative {
+    background-color: #f44336; /* Red for negative percentage */
+  }
+
+.avgorderValues{
+    width: 332px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overLoadValue{
+    width: 78px;
+    height: 40px;
+    left: 20px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.currentPreviousInfo{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 70%;
+}
+
+.currentInfo, .previousInfo{
+    width: 76px;
+    height: 22px;
+    top: 9px;
+    left: 483px;
+    padding: 0px 1px 0px 0px;  
+}
+
+.previousText,.currentText{
+    width: 57px;
+    height: 22px;
+    left: 18px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#64748B;
+
+}
+
+
+
+.avgOrderChart{
+    width: 560px;
+    height: 234px;
+    top: 118px;
+    position: absolute;
+    
+}
